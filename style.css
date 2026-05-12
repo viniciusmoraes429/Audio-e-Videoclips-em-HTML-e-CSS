@@ -1,0 +1,186 @@
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#111;
+    color:white;
+}
+
+header{
+    background:black;
+    padding:25px;
+    text-align:center;
+}
+
+header h1{
+    color:red;
+    font-size:100px;
+    font-family:Impact, sans-serif;
+    letter-spacing:8px;
+    text-shadow:4px 4px 18px rgba(255,0,0,0.9);
+    margin:0;
+}
+
+header p{
+    color:#ccc;
+    font-size:20px;
+}
+
+nav{
+    margin-top:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:red;
+}
+
+.banner{
+    background-image:url("imagens/banner.jpg");
+    background-size:cover;
+    background-position:center;
+    padding:140px 20px;
+    text-align:center;
+}
+
+.banner h2{
+    font-size:55px;
+}
+
+.banner p{
+    font-size:22px;
+}
+
+.container{
+    width:90%;
+    max-width:1400px;
+    margin:auto;
+    margin-top:30px;
+    padding:30px;
+    background:#1b1b1b;
+    border-radius:25px;
+    box-shadow:0 0 20px black;
+}
+
+section{
+    margin-bottom:70px;
+}
+
+section h2{
+    color:red;
+    text-align:center;
+    font-size:40px;
+}
+
+.grade{
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
+
+    gap:25px;
+
+    justify-items:center;
+}
+
+.card{
+    background:#222;
+
+    width:100%;
+
+    max-width:320px;
+
+    padding:18px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+
+    background:#333;
+}
+
+.card img{
+    width:100%;
+
+    height:320px;
+
+    object-fit:contain;
+
+    object-position:center;
+
+    background:#111;
+
+    border-radius:12px;
+
+    padding:5px;
+}
+
+.card h3{
+    font-size:24px;
+}
+
+.card p{
+    color:#ccc;
+
+    line-height:1.5;
+}
+
+audio{
+    width:100%;
+
+    margin-top:15px;
+}
+
+video{
+    width:100%;
+
+    height:320px;
+
+    object-fit:cover;
+
+    border-radius:12px;
+
+    margin-top:15px;
+}
+
+footer{
+    background:black;
+
+    text-align:center;
+
+    padding:25px;
+
+    font-size:18px;
+}
+
+@media(max-width:768px){
+
+header h1{
+    font-size:55px;
+}
+
+.banner h2{
+    font-size:35px;
+}
+
+section h2{
+    font-size:30px;
+}
+
+.card{
+    width:100%;
+}
+
+}

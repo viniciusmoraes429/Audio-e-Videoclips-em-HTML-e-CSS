@@ -1,0 +1,18 @@
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Diretórios de build ou temporários
+dist/
+build/
+
+# Arquivos de IDE
+.vscode/
+.idea/
+
+# Outros arquivos temporários
+*.tmp
+*.bak
